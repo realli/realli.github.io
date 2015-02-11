@@ -1,0 +1,12 @@
+# Site settings
+title: Lambda Coder
+email: lrlanswer@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Loving cooking, coding and making stuff.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://realli.github.io" # the base hostname & protocol for your site
+twitter_username: 
+github_username: realli
+
+# Build settings
+markdown: kramdown
