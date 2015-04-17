@@ -1,0 +1,7 @@
+---
+title: My first article
+---
+
+Hello people. I am a young programmer from China. Big fun of Haskell, also love python. I'm able to write program using different programming languages (C/C++, Javascript and so on), too.
+
+This site is built by Hakyll, a static site generator written by Haskell, which is a world-class FP programming language, very interesting and beautiful. Or I should use Chinese to describe: NB, High-end, 碉堡了.
