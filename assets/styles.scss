@@ -1,0 +1,67 @@
+---
+---
+
+@import "bourbon/bourbon";
+@import "neat/neat";
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover {
+  color: #111;
+}
+
+.site-header,
+.site-footer,
+.page-content {
+  @include outer-container;
+  .wrapper {
+    @include span-columns(6);
+    @include shift(3);
+  }
+}
+
+.site-header {
+  margin-top: 30px;
+  .wrapper {
+    a {
+      font-size: modular-scale(1);
+    }
+    >a {
+      @include span-columns(2 of 6);
+    }
+    .site-nav {
+      @include span-columns(4 of 6);
+      a {
+        float: right;
+      }
+    }
+  }
+}
+
+.site-footer {
+  p {
+    color: #888;
+    font-size: small;
+    text-align: center;
+  }
+}
+
+.page-heading {
+  color: #333;
+  font-size: modular-scale(2);
+}
+.post-list {
+  li {
+    list-style-type: none;
+    color: #888;
+  }
+  .post-meta {
+    font-size: modular-scale(-1);
+  }
+  .post-link {
+    font-size: modular-scale(1);
+  }
+}
